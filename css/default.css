@@ -1,0 +1,56 @@
+@import "style.css";
+@import "bootstrap.css";
+/*++++BOOTSTRAP OVERWRITE START+++++*/
+
+/*===nav bar start===*/
+.navbar-inner {
+   background-color:rgba(0, 0, 0, 0.5)!important;
+   background-image: none!important;
+}/*disable bs background image make it transparent*/
+
+
+/*make nav bar aline start*/
+.navbar-inverse .nav .active > a, .navbar-inverse .nav .active > a:hover, .navbar-inverse .nav .active > a:focus {
+    padding: 20px;
+}
+.navbar-inverse .nav > li > a {
+    padding: 20px;
+}/*make nav bar aline end*/
+
+/*hover color and background transparent start*/
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
+	padding: 20px;
+	background-color: transparent;/*reset bs background color*/
+}
+.navbar-inverse .nav > li > a:focus,
+.navbar-inverse .nav > li > a:hover {
+  color: #be2c2c; /*hover color*/
+  background-color: transparent;/*reset bs background color*/
+}/*hover color and background transparent end*/
+
+/*active color start*/
+.navbar-inverse .nav .active > a, .navbar-inverse .nav .active > a:hover, .navbar-inverse .nav .active > a:focus {
+/* 	padding: 20px; */
+	background-color:transparent;
+	color:green; /*active color*/
+}/*active color end*/
+
+/*navbar font size start*/
+.navbar .nav {
+    font-size: 150%;
+}/*navbar font size end*/
+
+/*get rid of background start*/
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
+    box-shadow:none;
+}/*get rid of background end*/
+
+.navbar-inverse .navbar-inner {
+box-shadow: 1px 1px 10px #000000;
+}/*navbar shadow*/
+
+
+/*===nav bar end===*/
+
+/*++++BOOTSTRAP OVERWRITE END+++++*/
+
